@@ -1,0 +1,1157 @@
+: 1731088624:0;ll .config
+: 1731088638:0;cd .config | mkdir zsh
+: 1731088642:0;ll .config
+: 1731088647:0;ls
+: 1731088653:0;rm -rf zsh
+: 1731088658:0;cd .config
+: 1731088666:0;mkdir zsh
+: 1731088668:0;ls
+: 1731088675:0;cd zsh
+: 1731088681:0;mkdir history
+: 1731088685:0;ls
+: 1731088697:0;cd history
+: 1731088710:0;clear
+: 1731088735:0;conf
+: 1731088737:0;clear
+: 1731088748:0;home-manager switch
+: 1731088764:0;ls
+: 1731088766:0;conf
+: 1731088826:0;cd ../.. || nvim ./my-nix/home.nix
+: 1731088833:0;nvim ./my-nix/home.nix
+: 1731088840:0;nvim ./.my-nix/home.nix
+: 1731088852:0;nvim ./.my-nix/zsh.nix
+: 1731088881:0;mv etc/nixos/zsh.nix ~/.my-nix
+: 1731088887:0;mv /etc/nixos/zsh.nix ~/.my-nix
+: 1731088891:0;sudo mv /etc/nixos/zsh.nix ~/.my-nix
+: 1731088899:0;home-manager switch
+: 1731088918:0;nvim ./.my-nix/zsh.nix
+: 1731088932:0;nvim /.my-nix/zsh.nix
+: 1731088938:0;nvim .my-nix/zsh.nix
+: 1731088954:0;nvim .my-nix/home.nix
+: 1731089009:0;nvim .my-nix/flake.nix
+: 1731089241:0;home-manager switch --flake ./.my-nix
+: 1731089268:0;nvim .my-nix/flake.nix
+: 1731089299:0;home-manager switch --flake ./.my-nix
+: 1731089322:0;nvim .my-nix/flake.nix
+: 1731089341:0;home-manager switch --flake ./.my-nix
+: 1731089449:0;sudo home-manager switch --flake ./.my-nix
+: 1731089579:0;nvim .my-nix/flake.nix
+: 1731090058:0;sudo home-manager switch --flake ./.my-nix
+: 1731090135:0;nvim .my-nix/flake.nix
+: 1731090151:0;sudo home-manager switch --flake ./.my-nix
+: 1731090157:0;nvim .my-nix/flake.nix
+: 1731090210:0;sudo home-manager switch --flake ./.my-nix
+: 1731090226:0;home-manager switch --flake ./.my-nix
+: 1731090260:0;nvim .my-nix/zsh.nix
+: 1731090325:0;sudo nvim .my-nix/zsh.nix
+: 1731090354:0;home-manager switch --flake ./.my-nix
+: 1731090431:0;sudo nvim /nix/store/q1ss75nhmjiydyqw8lbzwbx7cqk8z0qq-source/modules/misc/nixpkgs.nix
+: 1731090513:0;home-manager switch --show-trace --flake ./.my-nix
+: 1731090547:0;nvim .my-nix/zsh.nix
+: 1731090586:0;nvim .my-nix/home.nix
+: 1731090680:0;sudo nvim /nix/store/q1ss75nhmjiydyqw8lbzwbx7cqk8z0qq-source/modules/misc/nixpkgs.nix
+: 1731090749:0;ll /nix/store/q1ss75nhmjiydyqw8lbzwbx7cqk8z0qq-source/modules/misc/
+: 1731090776:0;reboot
+: 1731122764:0;nvim .my-nix/home.nix
+: 1731123020:0;home-manager switch --show-trace --flake ./.my-nix
+: 1731123035:0;home-manager switch
+: 1731123052:0;nvim .my-nix/home.nix
+: 1731123504:0;home-manager switch
+: 1731123517:0;nvim .my-nix/home.nix
+: 1731123607:0;nvim .my-nix/nixvim.nix
+: 1731123738:0;nvim .my-nix/home.nix
+: 1731123792:0;sudo nvim /etc/nixos/configuration.nix
+: 1731123896:0;sudo nvim /etc/nixos/packages.nix
+: 1731123929:0;sudo nixos-rebuild switch
+: 1731123961:0;sudo -I
+: 1731123981:0;sudo nvim /etc/nixos/configuration.nix
+: 1731124000:0;nvim .my-nix/flake.nix
+: 1731124042:0;sudo nixos-rebuild switch --flake ./.my-nix
+: 1731124067:0;nvim .my-nix/flake.nix
+: 1731124322:0;reboot
+: 1731124377:0;neofetch
+: 1731124416:0;sudo nvim /etc/nixos/configuration.nix
+: 1731124448:0;nvim .my-nix/flake.nix
+: 1731124477:0;home-manager switch --flake ./.my-nix
+: 1731124487:0;sudo nvim /etc/nixos/configuration.nix
+: 1731124558:0;nvim .my-nix/home.nix
+: 1731124576:0;sudo nvim /etc/nixos/configuration.nix
+: 1731124610:0;sudo nixos-rebuild switch
+: 1731124630:0;nvim .my-nix/home.nix
+: 1731124694:0;sudo nixos-rebuild switch --extra-expiremental-features flakes
+: 1731124707:0;sudo nixos-rebuild switch --extra-experimental-features flakes
+: 1731124785:0;sudo nvim /etc/nixos/configuration.nix
+: 1731124994:0;sudo nixos-rebuild switch
+: 1731125015:0;sudo nvim /etc/nixos/configuration.nix
+: 1731125023:0;sudo nixos-rebuild switch
+: 1731125054:0;sudo nvim /etc/nixos/configuration.nix
+: 1731125252:0;reboot
+: 1731125482:0;nix-env -p
+: 1731125489:0;nix-env -p command
+: 1731125501:0;nix-env --help
+: 1731125597:0;NIX_PATH="/etc/nixos"
+: 1731125601:0;sudo nixos-rebuild switch
+: 1731125729:0;niv
+: 1731125792:0;nix-shell -p nix_info --run "nix-info -m"
+: 1731125845:0;NIX_PATH="/home/kyland/.nix-defexpr/channels"
+: 1731125846:0;nix-shell -p nix_info --run "nix-info -m"
+: 1731125853:0;sudo nixos-rebuild switch
+: 1731125952:0;sudo nixos-rebuild -I /etc/nixos/configuration.nix switch
+: 1731125980:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch
+: 1731126004:0;sudo nvim /etc/nixos/configuration.nix
+: 1731126017:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch
+: 1731126028:0;sudo nvim /etc/nixos/configuration.nix
+: 1731126062:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch
+: 1731126126:0;sudo nvim /etc/nixos/configuration.nix
+: 1731126145:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731126236:0;nvim .my-nix/home.nix
+: 1731126303:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731126311:0;nvim .my-nix/home.nix
+: 1731126411:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731126428:0;nvim .my-nix/home.nix
+: 1731126492:0;cp .my-nix/home.nix ./
+: 1731126493:0;ls
+: 1731126546:0;mv home.nix neovim.nix
+: 1731126547:0;ls
+: 1731126562:0;cp neovim.nix .my-nix
+: 1731126563:0;ls
+: 1731126575:0;rm neovim.nix
+: 1731126576:0;ls
+: 1731126582:0;ls .my-nix
+: 1731126594:0;nvim .my-nix/neovim.nix
+: 1731126832:0;cd .my-nix
+: 1731126842:0;mkdir neovim
+: 1731126856:0;mv neovim.nix neovim
+: 1731126872:0;mv neovim.nix plugins.nix
+: 1731126888:0;cp neovim/neovim.nix ./
+: 1731126890:0;mv neovim.nix plugins.nix
+: 1731126902:0;mv plugins.nix neovim
+: 1731126904:0;ls
+: 1731126918:0;ls neovim
+: 1731126942:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731126996:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731127250:0;nvim ~/.my-nix/home.nix
+: 1731127315:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731127341:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731127353:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731127379:0;nvim ~/.my-nix/home.nix
+: 1731127391:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731127443:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731127494:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731127527:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731127568:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731127604:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731127720:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731127810:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731127837:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731127858:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731127876:0;sudo nvim /etc/nixos/configuration.nix
+: 1731127913:0;sudo nvim /etc/nixos/pacakges.nix
+: 1731127921:0;sudo nvim /etc/nixos/packages.nix
+: 1731127938:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731128080:0;nix-channel --help
+: 1731128114:0;nix-channel --list
+: 1731128180:0;nix-channel --add https://github.com/nix-community/nixvim
+: 1731128188:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731128203:0;nix-channel --update
+: 1731128235:0;nix-channel --list
+: 1731128250:0;nix-channel --remove home-manager
+: 1731128256:0;nix-channel --list
+: 1731128261:0;nix-channel --update
+: 1731128364:0;nix-channel --remove nixvim
+: 1731128410:0;nix-channel --add github:nixcommunity/nixvim nixvim
+: 1731128420:0;nix-channel --add https://github.com/nix-community/nixvim
+: 1731128732:0;sudo nvim /etc/nixos/packages.nix
+: 1731128904:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731129064:0;nvim .my-nix/zsh.nix
+: 1731129072:0;nvim zsh.nix
+: 1731129086:0;sudo nvim zsh.nix
+: 1731129098:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731129309:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731129350:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731129400:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731129434:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731129574:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731129608:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731129698:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731129727:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731129735:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731129787:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731129794:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731129816:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731129826:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731129850:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731129907:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731129939:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731129955:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731130003:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731130034:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade
+: 1731130179:0;cd ..
+: 1731130183:0;exit
+: 1731130205:0;ls
+: 1731130207:0;clear
+: 1731130232:0;cd .my
+: 1731130239:0;cd .my-nix
+: 1731130241:0;cd ..
+: 1731130245:0;cl
+: 1731130249:0;clear
+: 1731130250:0;conf
+: 1731130309:0;nvim ~/.my-nix/zsh.nix
+: 1731130356:0;sudo nvim ~/.my-nix/zsh.nix
+: 1731130608:0;clear
+: 1731131832:0;nvim
+: 1731131841:0;nvim ~/.my-nix/zsh.nix
+: 1731132252:0;nvim ~/.my-nix/alacritty.nix
+: 1731132470:0;neofetch
+: 1731132518:0;nvim ~/.my-nix/home.nix
+: 1731132726:0;rbnix
+: 1731132981:0;nvim ~/.my-nix/zsh.nix
+: 1731132996:0;sudo nvim ~/.my-nix/zsh.nix
+: 1731133169:0;sudo nvim ~/.my-nix/neovim/plugins.nix
+: 1731133194:0;nvim ~/.my-nix/alacritty.nix
+: 1731133764:0;sudo nvim ~/.my-nix/zsh.nix
+: 1731133790:0;clear
+: 1731133793:0;neofetch
+: 1731133815:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch
+: 1731133856:0;sudo nvim /etc/nixos/packages.nix
+: 1731133918:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch
+: 1731134026:0;sudo nvim /etc/nixos/configuration.nix
+: 1731134052:0;nvim ~/.my-nix/home.nix
+: 1731134060:0;sudo nvim /etc/nixos/configuration.nix
+: 1731134064:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch
+: 1731134169:0;clear
+: 1731134171:0;ls
+: 1731134214:0;clear
+: 1731134231:0;nvim ~/.my-nix/home.nix
+: 1731134283:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731134343:0;nvim ~/.my-nix/home.nix
+: 1731134355:0;clear
+: 1731134361:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch
+: 1731134366:0;clear
+: 1731134371:0;rbnix
+: 1731134409:0;nvim ~/.my-nix/alacritty.nix
+: 1731134445:0;rbnix
+: 1731134497:0;nvim ~/.my-nix/zsh.nix
+: 1731134506:0;nvim ~/.my-nix/alacritty.nix
+: 1731134516:0;rbnix
+: 1731134644:0;nvim ~/.my-nix/alacritty.nix
+: 1731134653:0;rbnix
+: 1731134750:0;nvim ~/.my-nix/alacritty.nix
+: 1731135346:0;nvim ~/.config/alacritty/alacritty.toml
+: 1731135404:0;cd ~/.config
+: 1731135405:0;ls
+: 1731135412:0;mkdir alacritty
+: 1731135417:0;nvim ~/.config/alacritty/alacritty.toml
+: 1731135431:0;ls
+: 1731135433:0;clear
+: 1731135435:0;neofetch
+: 1731135463:0;nvim ~/.my-nix/home.nix
+: 1731135472:0;clear
+: 1731135474:0;pfetch
+: 1731135478:0;clear
+: 1731135482:0;fastfetch
+: 1731135486:0;clear
+: 1731135489:0;neofetch
+: 1731135499:0;poweroff
+: 1731149913:0;cd gits
+: 1731149918:0;git clone https://github.com/VicKyland/firefox-css.git
+: 1731150002:0;clear
+: 1731150005:0;neofetch
+: 1731150017:0;clear
+: 1731150020:0;neofetch
+: 1731150040:0;git clone https://github.com/VicKyland/firefox-css.git
+: 1731150527:0;clear
+: 1731150537:0;ls -l
+: 1731150542:0;clear
+: 1731150543:0;cd ..
+: 1731150545:0;clear
+: 1731150548:0;ll
+: 1731150551:0;ls -l
+: 1731150553:0;ls
+: 1731150589:0;clear
+: 1731150593:0;neofetch
+: 1731150596:0;pfetch
+: 1731150601:0;fastfetch
+: 1731150608:0;clear
+: 1731151068:0;neofetch
+: 1731151137:0;pwd
+: 1731151139:0;clear
+: 1731151151:0;ll
+: 1731151165:0;clear
+: 1731151231:0;ls -R /
+: 1731151256:0;clear
+: 1731151590:0;cleart
+: 1731151593:0;clear
+: 1731151743:0;ll .my-nix
+: 1731151783:0;cat test
+: 1731151806:0;cat .my-nix/home.nix
+: 1731151810:0;clear
+: 1731151813:0;exit
+: 1731151824:0;neofetch
+: 1731152482:0;nvim
+: 1731152886:0;clear
+: 1731152912:0;ll
+: 1731152917:0;pfetch
+: 1731153061:0;clear
+: 1731153064:0;neofetch
+: 1731153068:0;nvim
+: 1731153562:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731153588:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731155499:0;rbnix
+: 1731155664:0;pkgs
+: 1731155703:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731155742:0;nvim ~/.my-nix/zsh.nix
+: 1731155906:0;sudo nvim ~/.my-nix/zsh.nix
+: 1731155929:0;rbnix
+: 1731156022:0;nvim
+: 1731156024:0;:q
+: 1731156027:0;clear
+: 1731156032:0;conf
+: 1731156068:0;nvim ~/.my-nix/zsh.nix
+: 1731156093:0;sudo nvim ~/.my-nix/zsh.nix
+: 1731158244:0;neofetch
+: 1731158269:0;rbnix
+: 1731158364:0;Hyprland
+: 1731158391:0;clear
+: 1731158396:0;neofetch
+: 1731158718:0;pkgs
+: 1731158757:0;conf
+: 1731397942:0;ssh-keygen -t rsa
+: 1731397988:0;clear
+: 1731398002:0;cat ~/.ssh/id_rsa.pub
+: 1731398192:0;clear
+: 1731398196:0;exit
+: 1731399473:0;ssh root@2a03:6f02::6435
+: 1731399650:0;clear
+: 1731399659:0;sudo ssh root@2a03:6f02::6435
+: 1731399680:0;ssh --help
+: 1731399689:0;ssh -h
+: 1731399731:0;ssh root@2a03:6f02::6435
+: 1731399733:0;clear
+: 1731400181:0;ssh root@2a03:6f02::6435
+: 1731400188:0;clear
+: 1731400885:0;cd ~/.ssh/
+: 1731400887:0;ls
+: 1731400898:0;mkdir public_keys
+: 1731401032:0;mkdir authorized_keys
+: 1731401035:0;ls
+: 1731401056:0;cp id_rsa.pub authorized_keys
+: 1731401057:0;ls
+: 1731401064:0;ls authorized keys
+: 1731401069:0;ls authorized_keys
+: 1731401076:0;ssh root@2a03:6f02::6435
+: 1731401122:0;cp id_rsa authorized_keys
+: 1731401125:0;ssh root@2a03:6f02::6435
+: 1731401217:0;clear
+: 1731401259:0;ssh root@2a03:6f02::6435
+: 1731401284:0;clear
+: 1731401362:0;ssh root@2a03:6f02::6435
+: 1731508350:0;clear
+: 1731508353:0;neofetch
+: 1731508357:0;clear
+: 1731508362:0;exit
+: 1731508618:0;clear
+: 1731508620:0;neofetch
+: 1731509087:0;pkgs
+: 1731509232:0;fastfetch
+: 1731509236:0;clear
+: 1731509238:0;neofetch
+: 1731509380:0;alias --help
+: 1731509383:0;alias -h
+: 1731509387:0;clear
+: 1731509392:0;alias --list
+: 1731509396:0;alias -l
+: 1731509398:0;clear
+: 1731509452:0;nvim ~/.my-nix/zsh.nix
+: 1731509488:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731509497:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731509503:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731509517:0;nvim ~/.my-nix/zsh.nix
+: 1731509561:0;sudo nvim ~/.my-nix/zsh.nix
+: 1731509706:0;pkgs
+: 1731572808:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731572832:0;pkgs
+: 1731572860:0;[34
+: 1731572863:0;clear
+: 1731572866:0;pkgs
+: 1731573360:0;rbnix
+: 1731573405:0;pkgs
+: 1731573426:0;git
+: 1731573430:0;rbnix
+: 1731573545:0;sudo nvim ~/.my-nix/zsh.nix
+: 1731573559:0;rbnix
+: 1731573593:0;nixos-rebuild
+: 1731573606:0;nixos-rebuild --upgrade-all
+: 1731573621:0;nixos-rebuild switch --upgrade-all
+: 1731573694:0;nixos-rebuild switch --configuration=/etc/nixos/configuration.nix --upgrade-all
+: 1731573702:0;sudo nvim ~/.my-nix/zsh.nix
+: 1731573737:0;sudo nixos-rebuild -I nixos-config=/etc/nixos/configuration.nix switch --upgrade-all
+: 1731574161:0;git clone https://github.com/VicKyland/firefox-css.git
+: 1731574180:0;clear
+: 1731574200:0;cleat
+: 1731574202:0;clear
+: 1731574208:0;rbnix
+: 1731574242:0;rbnix --show-trace
+: 1731575956:0;pkgs
+: 1731576007:0;rbnix
+: 1731576305:0;nvim
+: 1731576318:0;sudo nvim ~/.my-nix/neovim/plugins.nix
+: 1731577180:0;rbnix
+: 1731577224:0;nvim
+: 1731577277:0;conf
+: 1731577336:0;sudo nvim ~/.my-nix/neovim/neovim.nix
+: 1731577431:0;rbnix
+: 1731577446:0;sudo nvim ~/.my-nix/neovim/neovim.nix
+: 1731577454:0;clear
+: 1731577603:0;neofetch
+: 1731577647:0;clear
+: 1731577652:0;Hyprland
+: 1731577851:0;conf
+: 1731578008:0;Hyprland
+: 1731578076:0;rbnix
+: 1731578109:0;conf
+: 1731578131:0;rbnix
+: 1731578150:0;conf
+: 1731578170:0;rbnix
+: 1731578443:0;nvim ~/.config/hypr/hyprland.conf
+: 1731578510:0;exit
+: 1731578682:0;nvim ~/.config/hypr/hyprland.conf
+: 1731578808:0;firefox
+: 1731579006:0;nvim ~/.config/hypr/hyprland.conf
+: 1731579292:0;pkgs
+: 1731579315:0;rbnix
+: 1731579465:0;hyprpaper
+: 1731579476:0;nvim ~/.config/hypr/hyprpaper.conf
+: 1731579555:0;firefox
+: 1731579723:0;hyprpaper
+: 1731579744:0;nvim ~/.config/hypr/hyprpaper.conf
+: 1731591926:0;hyprpaper
+: 1731591998:0;neofetch
+: 1731592234:0;pk
+: 1731592238:0;pkgs
+: 1731592378:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731592509:0;clear
+: 1731592644:0;pkgs
+: 1731592701:0;hyprpaper
+: 1731592726:0;firefox
+: 1731592778:0;hyprpaper
+: 1731592807:0;firefox
+: 1731593360:0;rbnix
+: 1731593433:0;nvim
+: 1731593441:0;pkgs
+: 1731593467:0;conf
+: 1731593512:0;pkgs
+: 1731593523:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731593681:0;rbnix
+: 1731596349:0;clear
+: 1731596352:0;neofetch
+: 1731596374:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731596533:0;hyprpaper
+: 1731596575:0;reboot
+: 1731668847:0;hyprpaper
+: 1731668859:0;neofetxj
+: 1731668862:0;clear
+: 1731668866:0;neofetch
+: 1731668928:0;hyprland
+: 1731668963:0;nvim ~/.config/hypr/hyprpaper.conf
+: 1731668973:0;nvim ~/.config/hypr/hyprland.conf
+: 1731669135:0;links
+: 1731669147:0;w3m
+: 1731669150:0;clear
+: 1731669159:0;lynx
+: 1731669172:0;clear
+: 1731669212:0;pkgs
+: 1731669310:0;waybar
+: 1731669330:0;ls ~/.config
+: 1731669562:0;ls ~/.config/waybar
+: 1731669579:0;cd ~/.config
+: 1731669587:0;mkdir waybar
+: 1731669591:0;cd waybar
+: 1731669937:0;nvim ~/.config/waybar/config
+: 1731670087:0;waybar
+: 1731670098:0;neofetch
+: 1731670143:0;ranger
+: 1731670206:0;clear
+: 1731670310:0;lynx
+: 1731670329:0;links
+: 1731670378:0;clear
+: 1731670421:0;nvim ~/.config/waybar/config
+: 1731670435:0;waybar
+: 1731670445:0;nvim ~/.config/waybar/config
+: 1731670497:0;hyprpaper
+: 1731671305:0;waybar
+: 1731671383:0;ls
+: 1731671384:0;clear
+: 1731671453:0;nvim ~/.config/waybar/style.css
+: 1731671486:0;waybar
+: 1731671514:0;nvim ~/.config/alacritty/alacritty.toml
+: 1731671519:0;nvim ~/.config/waybar/style.css
+: 1731671792:0;waybar
+: 1731671826:0;nvim ~/.config/waybar/style.css
+: 1731671968:0;waybar
+: 1731672414:0;nvim ~/.config/waybar/config
+: 1731672458:0;waybar
+: 1731672575:0;pkgs
+: 1731672604:0;rbnix
+: 1731672632:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731672672:0;rbnix
+: 1731672683:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731672715:0;rbnix
+: 1731672989:0;conf
+: 1731673390:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731673526:0;neofetch
+: 1731673577:0;conf
+: 1731673600:0;pkgs
+: 1731673615:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731673627:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731673664:0;ls ~/.my-nix
+: 1731673685:0;nvim ~/.my-nix/home.nix
+: 1731673698:0;rbnix
+: 1731673720:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731673726:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731673740:0;rbnix
+: 1731673755:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731673768:0;rbnix
+: 1731673826:0;conf
+: 1731673893:0;pkgs
+: 1731673916:0;rbnix
+: 1731674403:0;ranger
+: 1731674436:0;waybar
+: 1731674442:0;hyprpaper
+: 1731674522:0;clear
+: 1731674524:0;neofetch
+: 1731675055:0;waybar
+: 1731675217:0;nvim
+: 1731675279:0;clear
+: 1731675601:0;nvim ~/.my-nix/neovim/plugin.nix
+: 1731675606:0;nvim ~/.my-nix/neovim/plugins.nix
+: 1731675885:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731675927:0;rbnix
+: 1731675943:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731675952:0;rbnix
+: 1731675970:0;nvim ~/.my-nix/neovim/neovim.nix
+: 1731676322:0;rbnix
+: 1731676522:0;nvim
+: 1731676535:0;vim
+: 1731676539:0;vi
+: 1731676657:0;clear
+: 1731681272:0;nvim ~/.config/hypr/hyprland.conf
+: 1731681306:0;waybar
+: 1731681327:0;nvim
+: 1731681331:0;clear
+: 1731681333:0;neofetch
+: 1731681337:0;pfetch
+: 1731681342:0;clear
+: 1731681655:0;pkgs
+: 1731681782:0;nvim ~/.config/hypr/hyprland.conf
+: 1731682148:0;pkgs
+: 1731682207:0;nvim 
+: 1731682267:0;ls ~/.config
+: 1731682276:0;cd ~/.config
+: 1731682284:0;mkdir nvim
+: 1731682287:0;cd nvim
+: 1731682301:0;nvim ~/.config/nvim/init.lua
+: 1731682515:0;rm init.lua
+: 1731682516:0;ls
+: 1731682523:0;nvim ~/.config/nvim/init.vim
+: 1731682962:0;neofetch
+: 1731683043:0;echo $TERM
+: 1731683231:0;nvim ~/.config/nvim/init.vim
+: 1731683883:0;clear
+: 1731683885:0;conf
+: 1731683896:0;pkgs
+: 1731683900:0;nvim ~/.config/nvim/init.vim
+: 1731683932:0;conf
+: 1731684001:0;echo %SYSTEMROOT%
+: 1731684005:0;clear
+: 1731684027:0;ls /
+: 1731684034:0;su
+: 1731684304:0;clear
+: 1731684312:0;conf
+: 1731684320:0;nvim
+: 1731684328:0;sudo nvim
+: 1731684347:0;su
+: 1731684410:0;clear
+: 1731684413:0;nvim
+: 1731684417:0;clear
+: 1731684462:0;nvim
+: 1731684475:0;nvim ~/.config/nvim/init.vim
+: 1731684659:0;curl -fLo ~/.vim/autoload/plug.vim --create-dirs \\
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+: 1731684716:0;ls ~/.config/nvim/
+: 1731684731:0;ls ~/.vim
+: 1731684733:0;clear
+: 1731684738:0;nvim ~/.config/nvim/init.vim
+: 1731684833:0;sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+: 1731684843:0;ls ~/.vim
+: 1731684847:0;ls ~/.vim/autoload
+: 1731684867:0;nvim ~/.vim/autoload/plug.vim
+: 1731684903:0;ls -a ~/.vim/autoload
+: 1731684911:0;ls -a ~/.vim
+: 1731684917:0;ls -a ~/.vimrc
+: 1731684921:0;ls -a
+: 1731684937:0;pkgs
+: 1731685078:0;lynx
+: 1731685235:0;clear
+: 1731685377:0;ls ~/.config
+: 1731685391:0;cd ~/.config
+: 1731685397:0;mkdir wofi
+: 1731685460:0;nvim ~/.config/wofi/style.css
+: 1731685553:0;nvim
+: 1731685689:0;nvim ~/.config/nvim/init.vim
+: 1731686504:0;neofetch
+: 1731686523:0;curl -sL install-node.vercel.app/lts | bash
+: 1731686544:0;clear
+: 1731686568:0;nvim ~/.config/nvim/init.vim
+: 1731686600:0;clear
+: 1731686689:0;conf
+: 1731686809:0;rbnix
+: 1731686889:0;conf
+: 1731686996:0;rbnix
+: 1731687082:0;clear
+: 1731687086:0;wlogout
+: 1731687092:0;clear
+: 1731687094:0;swaylock
+: 1731687109:0;clear
+: 1731687201:0;ls
+: 1731687208:0;cd ~/.config
+: 1731687209:0;ls
+: 1731687216:0;mkdir swaylock
+: 1731687235:0;nvim ~/.config/swaylock/config
+: 1731687250:0;swaylock
+: 1731687259:0;clear
+: 1731687268:0;nvim ~/.config/swaylock/config
+: 1731687542:0;nvim /home/kyland/.mozilla/firefox/9wcepvlt.default/chrome
+: 1731688135:0;nvim ~/.config/hypr/hyprland.conf
+: 1731688150:0;ranger
+: 1731688245:0;cd ~
+: 1731688253:0;ls Downloads
+: 1731688294:0;cp ~/Downloads/cat-coffee.png ~/Pictures/wallpapers
+: 1731688304:0;ls ~/Pictures/wallpapers
+: 1731688316:0;nvim ~/.config/hypr/hyprpaper.conf
+: 1731688363:0;nvim ~/.config/hypr/hyprland.conf
+: 1731688767:0;clear
+: 1731688777:0;neofetch
+: 1731688780:0;clear
+: 1731688977:0;pkgs
+: 1731689305:0;neofetch
+: 1731689309:0;clear
+: 1731689603:0;rbnix
+: 1731689713:0;clear
+: 1731689871:0;neofetch
+: 1731689914:0;ckear
+: 1731689918:0;clear
+: 1731690365:0;nvim ~/.config/swaylock/config
+: 1731690471:0;nvim ~/.config/alacritty/alacritty.toml
+: 1731690617:0;nvim ~/.config/swaylock/config
+: 1731690953:0;clear
+: 1731728175:0;neofetch
+: 1731728178:0;clear
+: 1731729263:0;nvim ~/.config/waybar/config
+: 1731729404:0;waybar
+: 1731729421:0;nvim ~/.config/waybar/config
+: 1731729437:0;waybar
+: 1731729478:0;nvim ~/.config/hypr/hyprland.conf
+: 1731731214:0;cleear
+: 1731731215:0;clear
+: 1731731218:0;neofetch
+: 1731731225:0;exit
+: 1731731531:0;nvim ~/.config/hypr/hyprland.conf
+: 1731731726:0;waybar
+: 1731731741:0;nvim ~/.config/waybar/config
+: 1731731802:0;waybar
+: 1731732351:0;ls ~/Downloads
+: 1731732428:0;mv ~/Downloads/layout_2 ~/.config/
+: 1731732442:0;mv ~/Downloads/style_2.css ~/.config/
+: 1731732450:0;mv ~/Downloads/theme.css ~/.config/
+: 1731732461:0;cd ~/.config
+: 1731732473:0;mkdir wlogout
+: 1731732490:0;mv ~/.config/theme.css ~/.config/wlogout
+: 1731732498:0;mv ~/.config/style_2.css ~/.config/wlogout
+: 1731732524:0;mv ~/.config/layout_2 ~/.config/wlogout
+: 1731732527:0;ls wlogout
+: 1731732539:0;cd wlogout
+: 1731732561:0;mv ~/.config/wlogout/layout_2 ~/.config/wlogout/layout
+: 1731732581:0;mv ~/.config/wlogout/style_2.css ~/.config/wlogout/style.css
+: 1731732613:0;nvim ~/.config/wlogout/layout
+: 1731732639:0;nvim ~/.config/wlogout/style.css
+: 1731732801:0;nvim ~/.config/alacritty/alacritty.toml
+: 1731732832:0;nvim ~/.config/wlogout/theme.css
+: 1731732983:0;nvim ~/.config/wlogout/style.css
+: 1731735049:0;nvim ~/.config/waybar/config
+: 1731735112:0;nvim ~/.config/swaylock/config
+: 1731735163:0;ls ~/Pictures/wallpapers
+: 1731735383:0;nvim ~/.config/swaylock/config
+: 1731737428:0;clear
+: 1731737517:0;pfetch
+: 1731737622:0;nvim
+: 1731737627:0;nvim ~/.config/swaylock/config
+: 1731738483:0;nvim ~/.config/waybar/config
+: 1731738512:0;waybar
+: 1731738536:0;nvim ~/.config/waybar/config
+: 1731738573:0;waybar
+: 1731738589:0;nvim ~/.config/waybar/config
+: 1731738602:0;clear
+: 1731738787:0;pkgs
+: 1731739026:0;rbnix
+: 1731739136:0;nvim 
+: 1731739341:0;:q
+: 1731739343:0;clear
+: 1731739598:0;ls ~/Pictures
+: 1731739603:0;ls 
+: 1731739613:0;ls ~/Desktop
+: 1731739619:0;clear
+: 1731741970:0;bash
+: 1731741976:0;clear
+: 1731741985:0;csh
+: 1731741988:0;zsh
+: 1731741991:0;exit
+: 1731741993:0;clear
+: 1731742018:0;nvim
+: 1731742044:0;clear
+: 1731742062:0;cd /
+: 1731742064:0;ls
+: 1731742078:0;ls -R
+: 1731742128:0;clear
+: 1731742653:0;pkgs
+: 1731742686:0;mpv
+: 1731743154:0;nvim
+: 1731743450:0;nvim ~/.config/nvim/init.vim
+: 1731744028:0;nvim
+: 1731744538:0;pkgs
+: 1731744568:0;rb
+: 1731744572:0;rbnix
+: 1731744739:0;ascii-image-converter ~/Pictures/gojo.png
+: 1731744816:0;ascii-image-converter ~/Pictures/gojo_frame.jpg
+: 1731744933:0;ascii-image-converter -cb ~/Pictures/gojo_frame.jpg
+: 1731744938:0;ascii-image-converter -b ~/Pictures/gojo_frame.jpg
+: 1731744946:0;ascii-image-converter -b ~/Pictures/gojo.png
+: 1731744965:0;ascii-image-converter -cb ~/Pictures/gojo.png
+: 1731745006:0;ascii-image-converter -cb ~/Pictures/gojo_c.png
+: 1731745020:0;ascii-image-converter -c -b ~/Pictures/gojo_c.png
+: 1731745055:0;ascii-image-converter -bn ~/Pictures/gojo.png
+: 1731745081:0;ascii-image-converter -cn ~/Pictures/gojo.png
+: 1731745105:0;ascii-image-converter -cn ~/Pictures/gojo_c.png
+: 1731745110:0;ascii-image-converter -c ~/Pictures/gojo_c.png
+: 1731745115:0;ascii-image-converter -b ~/Pictures/gojo_c.png
+: 1731745166:0;ascii-image-converter ~/Pictures/gojo_c.png -m " .-=+#"
+: 1731745171:0;ascii-image-converter ~/Pictures/gojo_c.png -nm " .-=+#"
+: 1731745175:0;ascii-image-converter ~/Pictures/gojo_c.png -nm " .-=+#@"
+: 1731745186:0;ascii-image-converter ~/Pictures/gojo_c.png -nm " '.-=+#@"
+: 1731745203:0;ascii-image-converter ~/Pictures/gojo_c.png -nm " '.-=+&#@"
+: 1731745212:0;ascii-image-converter ~/Pictures/gojo_c.png -nm " '.-=+&#@N"
+: 1731745220:0;clear
+: 1731745230:0;ascii-image-converter ~/Pictures/gojo_c.png -nm " '.-=+&#@N"
+: 1731745244:0;ascii-image-converter -b ~/Pictures/gojo_c.png
+: 1731745417:0;clear
+: 1731745419:0;nvim 
+: 1731746278:0;mv ~/.config/nvim/init.vim ~/.config/nvim/init1.lua
+: 1731746294:0;cp ~/.config/nvim/init1.vim ~/.config/nvim/init.lua
+: 1731746311:0;cp ~/.config/nvim/init1.lua ~/.config/nvim/init.vim
+: 1731746323:0;mv ~/.config/nvim/init1.lua ~/.config/nvim/init1.vim
+: 1731746332:0;ls ~/.config/nvim
+: 1731746342:0;nvim ~/.config/nvim/init.vim
+: 1731746718:0;nvim
+: 1731746725:0;nvim ~/.config/nvim/init.vim
+: 1731746737:0;nvim
+: 1731749096:0;clear
+: 1731749100:0;neofetch
+: 1731749104:0;clear
+: 1731749106:0;exit
+: 1731755226:0;neofetch
+: 1731755228:0;clear
+: 1731755289:0;nvim ~/.config/nvim/init.vim
+: 1731755300:0;nvim ~/.config/hypr/hyprland.conf
+: 1731755341:0;pfetch
+: 1731755344:0;clear
+: 1731755346:0;neofetch
+: 1731755463:0;nvim ~/.config/wlogout/style.css
+: 1731755599:0;neofetch
+: 1731755863:0;clear
+: 1731755881:0;nvim
+: 1731756345:0;nvim ~/.config/alacritty/alacritty.toml
+: 1731757024:0;nvim ~/.config/wlogout/layout
+: 1731757038:0;nvim ~/.config/wlogout/style.css
+: 1731758128:0;nvim
+: 1731758300:0;wlogout --protocol layer-shell -b 4
+: 1731758511:0;nvim
+: 1731758618:0;clear
+: 1731758621:0;neofetch
+: 1731758700:0;nvim
+: 1731758885:0;waybar
+: 1731759019:0;nvim
+: 1731759355:0;nvim ~/.config
+: 1731759364:0;cd ~/.config
+: 1731759369:0;mkdir my
+: 1731759371:0;ls
+: 1731759373:0;cd my
+: 1731759374:0;ls
+: 1731759389:0;nvim ~/.config/my/white.sh
+: 1731759434:0;./white.sh
+: 1731759507:0;chmod 774 white.sh
+: 1731759509:0;./white.sh
+: 1731759511:0;clear
+: 1731759535:0;nvim
+: 1731759562:0;cd ..
+: 1731759566:0;cd alacritty
+: 1731759582:0;cp alacritty.toml alacritty_white.toml
+: 1731759593:0;ls
+: 1731759608:0;nvim ~/.config/alacritty/alacritty_white.toml
+: 1731762037:0;nvim ~/.config/my/white.sh
+: 1731762194:0;~/.config/my/white.sh
+: 1731762225:0;nvim ~/.config/my/black.sh
+: 1731762250:0;nvim ~/.config/my/white.sh
+: 1731762262:0;nvim ~/.config/my/black.sh
+: 1731762278:0;nvim ~/.config/my/white.sh
+: 1731762289:0;nvim ~/.config/my/black.sh
+: 1731762319:0;~/.config/my/black.sh
+: 1731762331:0;chmod 775 ~/.config/my/black.sh
+: 1731762332:0;~/.config/my/black.sh
+: 1731762346:0;nvim ~/.config/my/white.sh
+: 1731762386:0;nvim
+: 1731762540:0;cp ~/.config/waybar/config ~/.config/waybar/config_white
+: 1731762547:0;ls ~/.config/waybar
+: 1731762581:0;nvim ~/.config/waybar/config_white
+: 1731762738:0;pkill waybar
+: 1731762740:0;waybar
+: 1731762895:0;ls ~/.config/waybar
+: 1731762908:0;nvim ~/.config/waybar/style.css
+: 1731763142:0;mv ~/.config/waybar/style.css ~/.config/waybar/style_white.css
+: 1731763168:0;cp ~/.config/waybar/style_white.css ~/.config/waybar/style.css
+: 1731763171:0;nvim ~/.config/waybar/style.css
+: 1731763248:0;pkill waybar
+: 1731763254:0;waybar
+: 1731763331:0;ls ~/.config/waybar
+: 1731763369:0;nvim ~/.config/my/black.sh
+: 1731763388:0;:q
+: 1731766386:0;nvim ~/.config/my/black.sh
+: 1731766393:0;nvim ~/.config/my/white.sh
+: 1731766458:0;nvim ~/.config/my/black.sh
+: 1731766592:0;nvim
+: 1731766629:0;ls ~/.config/waybar
+: 1731766639:0;nvim ~/.config/waybar/style_white.css
+: 1731766655:0;~/.config/my/white.sh
+: 1731766682:0;nvim
+: 1731766704:0;nano
+: 1731766716:0;clear
+: 1731766719:0;nvim
+: 1731767067:0;pkill waybar
+: 1731767069:0;clear
+: 1731767078:0;nvim
+: 1731767086:0;ls ~/.config/waybar
+: 1731767119:0;cp ~/.config/waybar/style_black.css ~/.config/waybar/style.css
+: 1731767139:0;cp ~/.config/waybar/config_black ~/.config/waybar/config
+: 1731767141:0;ls ~/.config/waybar
+: 1731767144:0;nvim
+: 1731767357:0;nvim ~/.config/alacritty/alacritty_white.toml
+: 1731767387:0;nvim ~/.config/alacritty/alacritty_black.toml
+: 1731767432:0;mv ~/.config/alacritty/alacritty_black.toml ~/.config/alacritty/alacritty.toml
+: 1731767458:0;cp ~/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty_black.toml
+: 1731767462:0;ls ~/.config/waybar
+: 1731767596:0;nvim
+: 1731767957:0;ls ~/.config/alacritty
+: 1731767980:0;mv ~/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty_white.toml
+: 1731767991:0;mv ~/.config/alacritty/alacritty_black.toml ~/.config/alacritty/alacritty.toml
+: 1731768034:0;hyprctl hyprpaper ", ~/Pictures/wallpapers/gruvbox_grid.png"
+: 1731768044:0;nvim
+: 1731768073:0;hyprctl hyprpaper wallpaper ", ~/Pictures/wallpapers/gruvbox_grid.png"
+: 1731768085:0;ls ~/.config/waybar
+: 1731768102:0;nvim
+: 1731768123:0;ls ~/.config/waybar/config_black
+: 1731768130:0;nvim ~/.config/waybar/config_black
+: 1731768175:0;cp ~/.config/waybar/config_black ~/.config/waybar/config
+: 1731768180:0;nvim ~/.config/waybar/config
+: 1731768206:0;cp ~/.config/waybar/style_black.css ~/.config/waybar/style.css
+: 1731768214:0;nvim ~/.config/waybar/style.css
+: 1731768416:0;cp ~/.config/waybar/style_black.css ~/.config/waybar/style_white.css
+: 1731768430:0;ls ~/.config/waybar/
+: 1731768484:0;rm ~/.config/waybar/style_black.css
+: 1731768510:0;mv ~/.config/waybar/config_black ~/.config/waybar/config_white
+: 1731768512:0;ls ~/.config/waybar/
+: 1731768525:0;pkill waybar
+: 1731768556:0;clear
+: 1731768745:0;cp ~/.config/waybar/style.css ~/.config/waybar/style_black.css
+: 1731768766:0;cp ~/.config/waybar/config ~/.config/waybar/config_black
+: 1731768834:0;cp ~/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty_black.toml
+: 1731768837:0;ls ~/.config/waybar/
+: 1731768855:0;ls ~/.config/alacritty
+: 1731768862:0;nvim
+: 1731769307:0;ls ~/.config/waybar/
+: 1731769322:0;nvim
+: 1731769708:0;hyprBlack = 1
+: 1731769763:0;$hyprBlack = 1
+: 1731769772:0;$hyprBlack=1
+: 1731769776:0;clear
+: 1731769808:0;nvim ~/.my-nix/zsh.nix
+: 1731770133:0;nvim
+: 1731770358:0;ls ~/.config/waybar/
+: 1731770363:0;clear
+: 1731770369:0;pkgs
+: 1731770423:0;clear
+: 1731770590:0;nvim ~/.config/alacritty/alacritty.toml
+: 1731770633:0;nvim ~/.config/alacritty/alacritty_black.toml
+: 1731770662:0;nvim ~/.config/alacritty/alacritty_white.toml
+: 1731770794:0;clear
+: 1731770822:0;nvim
+: 1731771006:0;clear
+: 1731771147:0;swaylock
+: 1731771236:0;rbnix
+: 1731771310:0;pkgs
+: 1731771325:0;rbnix
+: 1731771432:0;swaync
+: 1731771451:0;hyprlock
+: 1731771519:0;clear
+: 1731771823:0;nvim
+: 1731771884:0;neofetch
+: 1731772050:0;nvim
+: 1731772150:0;ls ~/.config/hypr
+: 1731772173:0;nvim ~/.config/hypr/hyprlock.conf
+: 1731772362:0;hyprlock
+: 1731772773:0;ls ~/Pictures/wallpapers
+: 1731772779:0;hyprlock
+: 1731772790:0;ls ~/Pictures/wallpapers
+: 1731772805:0;hyprlock
+: 1731772864:0;nvim ~/.config/hypr/hyprlock.conf
+: 1731772868:0;hyprlock
+: 1731773036:0;nvim ~/.config/hypr/hyprlock.conf
+: 1731773038:0;hyprlock
+: 1731774244:0;clear
+: 1731774248:0;nvim
+: 1731774303:0;clear
+: 1731774805:0;nvim
+: 1731774910:0;clear
+: 1731774912:0;nvim
+: 1731774942:0;ls ~/.config/hyprBlack
+: 1731774971:0;nvim
+: 1731774989:0;clear
+: 1731775007:0;nvim ~/.config/my/test.sh
+: 1731775312:0;chmod 774 ~/.config/my/test.sh
+: 1731775317:0;~/.config/my/test.sh
+: 1731775368:0;nvim ~/.config/my/test.sh
+: 1731775408:0;~/.config/my/test.sh
+: 1731775563:0;nvim ~/.config/my/test.sh
+: 1731775583:0;~/.config/my/test.sh
+: 1731775589:0;nvim ~/.config/my/test.sh
+: 1731775622:0;~/.config/my/test.sh
+: 1731775651:0;nvim ~/.config/my/test.sh
+: 1731775677:0;~/.config/my/test.sh
+: 1731775686:0;nvim ~/.config/my/test.sh
+: 1731775709:0;nvim ~/.config/hyprBlack.txt
+: 1731775722:0;~/.config/my/test.sh
+: 1731775740:0;cat ~/.config/hyprBlack.txt
+: 1731775746:0;nvim ~/.config/hyprBlack.txt
+: 1731775761:0;nvim
+: 1731775796:0;~/.config/my/test.sh
+: 1731775899:0;nvim
+: 1731775917:0;~/.config/my/test.sh
+: 1731775926:0;nvim
+: 1731775968:0;~/.config/my/test.sh
+: 1731776011:0;cat /home/kyland/.config/hyprBlack.txt
+: 1731776101:0;~/.config/my/test.sh
+: 1731776604:0;nvim
+: 1731776640:0;~/.config/my/test.sh
+: 1731776898:0;seq "0" ~/.config/hyprBlack.txt
+: 1731776916:0;seq '0' ~/.config/hyprBlack.txt
+: 1731776924:0;seq -i '0' ~/.config/hyprBlack.txt
+: 1731776949:0;seq '0' ~/.config/hyprBlack.txt > ~/.config/hyprBlack.txt
+: 1731776973:0;seq '1s/.*/1/' ~/.config/hyprBlack.txt > ~/.config/hyprBlack.txt
+: 1731776983:0;seq --help
+: 1731777022:0;sed '1s/.*/1/' ~/.config/hyprBlack.txt > ~/.config/hyprBlack.txt
+: 1731777031:0;cat ~/.config/hyprBlack.txt
+: 1731777052:0;sed '1' ~/.config/hyprBlack.txt
+: 1731777060:0;sed '1' ~/.config/hyprBlack.txt > ~/.config/hyprBlack.txt
+: 1731777145:0;sed '1 c\ > 1' ~/.config/hyprBlack.txt > ~/.config/hyprBlack.txt
+: 1731777147:0;cat ~/.config/hyprBlack.txt
+: 1731777167:0;sed '1 c\ > 111' ~/.config/hyprBlack.txt > ~/.config/hyprBlack.txt
+: 1731777168:0;cat ~/.config/hyprBlack.txt
+: 1731777174:0;nvim
+: 1731777257:0;sed 's/# 1' ~/.config/hyprBlack.txt > ~/.config/hyprBlack.txt
+: 1731777265:0;sed '1s/# 1' ~/.config/hyprBlack.txt > ~/.config/hyprBlack.txt
+: 1731777396:0;sed -e 's/1' ~/.config/hyprBlack.txt
+: 1731777402:0;sed -e '1s/1' ~/.config/hyprBlack.txt
+: 1731777436:0;sed -e 's/"1"' ~/.config/hyprBlack.txt
+: 1731777488:0;sed 's/1' ~/.config/hyprBlack.txt
+: 1731777522:0;sed 's/1/0/' ~/.config/hyprBlack.txt
+: 1731777527:0;nvim
+: 1731777540:0;sed 's/1/0/' ~/.config/hyprBlack.txt
+: 1731777545:0;cat ~/.config/hyprBlack.txt
+: 1731777571:0;sed 's/1/0/' ~/.config/hyprBlack.txt > ~/.config/hyprBlack.txt
+: 1731777574:0;cat ~/.config/hyprBlack.txt
+: 1731777606:0;"$(sed 's/1/0/' ~/.config/hyprBlack.txt)" > ~/.config/hyprBlack.txt
+: 1731777759:0;sed -i 's/1/0/' ~/.config/hyprBlack.txt > ~/.config/hyprBlack.txt
+: 1731777761:0;cat ~/.config/hyprBlack.txt
+: 1731777766:0;nvim
+: 1731777787:0;sed -i 's/1/0/' ~/.config/hyprBlack.txt > ~/.config/hyprBlack.txt
+: 1731777790:0;cat ~/.config/hyprBlack.txt
+: 1731777817:0;sed -i 's/1/0/' ~/.config/hyprBlack.txt > ~/.config/hyprBlack.txt
+: 1731777819:0;cat ~/.config/hyprBlack.txt
+: 1731777837:0;sed -i 's/1/0/' ~/.config/hyprBlack.txt
+: 1731777840:0;cat ~/.config/hyprBlack.txt
+: 1731777857:0;nvim
+: 1731778142:0;nvim ~/.config/my/test.sh
+: 1731778159:0;nvim
+: 1731778324:0;ls ~/.config/waybar/
+: 1731778400:0;cp ~/.config/waybar/style_white.css ~/.config/waybar/style_black.css
+: 1731778419:0;nvim ~/.config/waybar/style_black.css
+: 1731778568:0;ls ~/.config/waybar/
+: 1731778593:0;nvim
+: 1731778685:0;cp ~/.config/waybar/style_white.css ~/.config/waybar/style_black.css
+: 1731778689:0;nvim ~/.config/waybar/style_black.css
+: 1731815686:0;nvim
+: 1731815761:0;clear
+: 1731815802:0;ranger
+: 1731815916:0;neofetch
+: 1731815941:0;bash
+: 1731815959:0;clear
+: 1731815962:0;fasfetch
+: 1731815965:0;fastfetch
+: 1731815975:0;clear
+: 1731815980:0;neofetch
+: 1731815993:0;clear
+: 1731815998:0;pfetch
+: 1731816008:0;clear
+: 1731816015:0;pfetch
+: 1731816026:0;cler
+: 1731816029:0;clear
+: 1731816034:0;fastfetch --help
+: 1731816078:0;fastfetch --logo ~/Pictures/gojo.png
+: 1731816087:0;ranger
+: 1731816105:0;fastfetch --logo ~/Pictures/gojo_frame.jpg
+: 1731816127:0;ascii-image-converter -b ~/Pictures/gojo_c.png
+: 1731816136:0;ascii-image-converter -c ~/Pictures/gojo_c.png
+: 1731816170:0;fastfetch --logo ~/Pictures/gojo_frame.jpg
+: 1731816173:0;ascii-image-converter -b ~/Pictures/gojo_c.png
+: 1731816198:0;clear
+: 1731816207:0;ranger
+: 1731816279:0;fastfetch --logo ~/Pictures/gojo_c.png
+: 1731816282:0;clear
+: 1731816294:0;links
+: 1731816302:0;lynk
+: 1731816304:0;lynx
+: 1731816334:0;clear
+: 1731816369:0;wofi --drun
+: 1731816375:0;wofi --show drun
+: 1731816380:0;clear
+: 1731817011:0;neofetch
+: 1731817027:0;nvim
+: 1731817408:0;cp ~/.config/nvim/init.lua ~/.config/nvim/init_black.vim
+: 1731817417:0;cp ~/.config/nvim/init.vim ~/.config/nvim/init_black.vim
+: 1731817429:0;cp ~/.config/nvim/init.vim ~/.config/nvim/init_white.vim
+: 1731817440:0;nvim ~/.config/nvim/init_white.vim
+: 1731817687:0;nvim
+: 1731817766:0;ls ~/.config/nvim
+: 1731817796:0;nvim
+: 1731817837:0;nvim ~/.config/nvim/init.vim
+: 1731817850:0;nvim
+: 1731817955:0;nvim ~/.config/nvim/init_white.vim
+: 1731817976:0;nvim
+: 1731818013:0;ll ~/.config/nvim
+: 1731818039:0;chmod 774 ~/.config/nvim/init.vim
+: 1731818042:0;ll ~/.config/nvim
+: 1731818057:0;nvim
+: 1731818061:0;ll ~/.config/nvim
+: 1731818070:0;chmod 774 ~/.config/nvim/init.vim
+: 1731818077:0;nvim
+: 1731818081:0;ll ~/.config/nvim
+: 1731818089:0;nvim
+: 1731818195:0;chmod 774 ~/.config/nvim/init.vim
+: 1731818200:0;nvim
+: 1731818206:0;chmod 774 ~/.config/nvim/init.vim
+: 1731818210:0;nvim
+: 1731818222:0;ll ~/.config/nvim
+: 1731818226:0;chmod 774 ~/.config/nvim/init.vim
+: 1731818228:0;ll ~/.config/nvim
+: 1731818236:0;nvim
+: 1731818276:0;chmod 774 ~/.config/nvim/init.vim
+: 1731818280:0;nvim
+: 1731818284:0;chmod 774 ~/.config/nvim/init.vim
+: 1731818290:0;nvim
+: 1731818300:0;clear
+: 1731818482:0;neofetch
+: 1731818492:0;nvim
+: 1731818731:0;clear
+: 1731818735:0;neofetch
+: 1731818766:0;nvim ~/.config/wofi/style.css
+: 1731819161:0;swaync
+: 1731819242:0;ls ~/.config/
+: 1731819248:0;cd ~/.config
+: 1731819257:0;mkdir swaync
+: 1731819287:0;nvim ~/.config/swaync/config.json\
+
+: 1731819316:0;nvim ~/.config/swaync/style.css\
+
+: 1731819328:0;cd ~
+: 1731819333:0;swaync
+: 1731819399:0;nvim ~/.config/swaync/style.css\
+
+: 1731819538:0;mkdir ~/.config/fastfetch
+: 1731819560:0;nvim ~/.config/fastfetch/config.jsonc
+: 1731819599:0;fastfetch
+: 1731819773:0;clear
+: 1731819780:0;fastfetch
+: 1731819792:0;clear
+: 1731819794:0;neofetch
+: 1731819822:0;fastfetch
+: 1731820317:0;clear
+: 1731820320:0;nvim
+: 1731820390:0;fastfetch
+: 1731820696:0;nvim
+: 1731820712:0;fastfetch
+: 1731820719:0;clear
+: 1731820761:0;nvim
+: 1731820778:0;ranger
+: 1731823405:0;nvim
+: 1731825820:0;clear
+: 1731825845:0;nvim
+: 1731825876:0;nvim ~/.config/nvim/init_black.vim
+: 1731826466:0;waybar
+: 1731826568:0;xrandr
+: 1731827527:0;clear
+: 1731831634:0;hyprctl monitors all
+: 1731831644:0;nvim
+: 1731831752:0;chmod 774 ~/.config/nvim/init.vim
+: 1731831757:0;nvim
+: 1731831760:0;clear
+: 1731831766:0;nvim
+: 1731831820:0;xrandr
+: 1731831828:0;nvim
+: 1731832162:0;neofetch
+: 1731832168:0;fastfetch
+: 1731832180:0;clear
+: 1731832517:0;htop
+: 1731832519:0;clear
+: 1731832895:0;neofetch
+: 1731832904:0;clear
+: 1731832906:0;neofetch
+: 1731832909:0;nvim
+: 1731832983:0;neofetch
+: 1731833061:0;clear
+: 1731833075:0;pkill steam
+: 1731833079:0;neofetch
+: 1731833085:0;clear
+: 1731833154:0;nvim
+: 1731833744:0;pkgs
+: 1731836546:0;neofetch
+: 1731836555:0;nvim
+: 1731837058:0;pkgs
+: 1731837375:0;rbnix
+: 1731837519:0;flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
+: 1731837632:0;sober
+: 1731837699:0;sfdfhienancoejfdsjkzqpfnmnjedjkedjsksadkfsakdldfs
+: 1731837702:0;clear
+: 1731837710:0;pfetch
+: 1731837717:0;neofetch
+: 1731838458:0;clear
+: 1731838459:0;neofetch
+: 1731838652:0;flatpak run org.vinegarhq.Sober
+: 1731838839:0;clear
+: 1731839315:0;neofetch
+: 1731839322:0;nvim
+: 1731839383:0;pfetch
+: 1731839385:0;clear
+: 1731839388:0;waybar
+: 1731839400:0;clear
+: 1731839462:0;nvim ~/.config/nvim/init_black.vim
+: 1731839510:0;nvim
+: 1731839745:0;nautilus

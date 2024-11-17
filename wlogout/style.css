@@ -1,0 +1,53 @@
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	background-color: rgba(28, 28, 28, 0.9);
+}
+
+button {
+  border-radius: 100;
+	border-color: #151515;
+	text-decoration-color: #000000;
+	color: #282828;
+	background-color: #928374;
+	border-style: none;
+	border-width: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+	font-size: 0px;
+	text-shadow: 0px 0px;
+	margin: 100px 5px;
+}
+
+button:hover {
+	background-color: #a89984;
+	outline-style: none;
+	margin: 80px 2px;
+}
+
+button:focus, button:active {
+	background-color: #ebdbb2;
+	outline-style: none;
+	margin: 10px 0px;
+}
+
+
+#lock {
+    background-image: image(url("/home/kyland/.config/wlogout/icons/lock_black.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("/home/kyland/.config/wlogout/icons/logout_black.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+}
+
+#shutdown {
+    background-image: image(url("/home/kyland/.config/wlogout/icons/shutdown_black.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/home/kyland/.config/wlogout/icons/reboot_black.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+}
